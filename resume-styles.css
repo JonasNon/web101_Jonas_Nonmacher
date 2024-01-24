@@ -3,6 +3,165 @@ body {
   background-color: blue;
 }
 
+.borderA {
+  border: 2px solid rgb(10, 134, 159);
+}
+
+
 .grid-container {
-display: grid;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-rows: 100%;
+  grid-template-columns: 250fr 400fr;
+}
+
+.head-text{
+  border: 5px solid darkgray;
+
+}
+
+.left-area {
+  display: grid;
+  grid-template-rows: 50% 250fr 250fr;
+  grid-template-columns: 1fr;
+  background-color: gray;
+}
+
+.right-area {
+  display: grid;
+  grid-template-rows: 330fr 200fr 50fr 100fr 100fr 50fr 100fr 100fr;
+  grid-template-columns: 150fr 50fr 200fr;
+  background-color: gray;
+}
+
+img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.big-text {
+  font-size: 80px;
+  color: black;
+  margin: 00px;
+  font-weight: 600;
+}
+
+.almost-big-text {
+  font-size: 50px;
+  color: black;
+  margin: 00px;
+}
+
+.medium-text {
+  font-size: 30px;
+  color: black;
+  margin: 00px;
+}
+
+.small-text {
+  font-size: 15px;
+  color: darkgrey;
+  margin: 00px;
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+.text-section {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  
+}
+
+#eins {
+  grid-row: 1/2;
+  grid-column: 1/2;
+
+}
+
+#zwei {
+  grid-row: 2/3;
+  grid-column: 1/2;
+
+}
+
+#drei {
+  grid-row: 3/4;
+  grid-column: 1/2;
+
+}
+
+/* lots of text positioning below */
+
+#text-1 {
+  /* Steamboat Willie */
+  grid-row: 1/2;
+  grid-column: 1/4;
+  justify-content: space-around;
+  align-items: flex-start;
+  
+}
+/* #text-2 {
+  grid-row: 5/6;
+  grid-column: 2/3;
+} */
+#text-3 {
+  /* Personal Summary */
+  grid-row: 2/3;
+  grid-column: 1/3;
+}
+#text-4 {
+  /* Core Skills */
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+#text-5 {
+  /* Work History */
+  grid-row: 3/4;
+  grid-column: 1/4;
+}
+#text-6 {
+  /* Steamboat Driver */
+  grid-row: 4/5;
+  grid-column: 1/2;
+}
+#text-7 {
+  /* Musician */
+  grid-row: 5/6;
+  grid-column: 1/2;
+}
+#text-8 {
+  /* lorus */
+  grid-row: 4/6;
+  grid-column: 2/4;
+}
+#text-9 {
+  /* Academic History */
+  grid-row: 6/7;
+  grid-column: 1/4;
+}
+#text-10 {
+  /* Medium Text */
+  grid-row: 7/8;
+  grid-column: 1/2;
+}
+#text-11 {
+  /* Biggest Text */
+  grid-row: 8/9;
+  grid-column: 1/2;
+}
+#text-11 {
+  /* Big Text */
+  grid-row: 7/9;
+  grid-column: 2/4;
 }
