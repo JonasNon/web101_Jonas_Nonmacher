@@ -1,3 +1,9 @@
+
+font-family: 'Roboto Condensed', sans-serif;
+
+
+
+
 body {
   background-color: darkcyan;
 }
@@ -40,13 +46,75 @@ nav,main,footer {
  flex: 1;
 }
 
+h1 {
+  font-family: Roboto Condensed;
+  
+  }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} */
+
 main {
   flex: 3;
 }
 nav ul {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
 }
+
+
+@media (max-width: 800px) {
+  body {
+    background-color: orange;
+  }
+  
+  nav {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav ul:hover::after {
+  content: 'wow hello';
+  height: 100px;
+  width: 60px;
+  background-color: red;
+  position: absolute;
+} */
 
 /* nav {
   height: 80px;
