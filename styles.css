@@ -11,3 +11,56 @@ img {
   width: 50%;
   height:50%;
 }
+
+.border1 {
+  border: 5px solid red;
+}
+
+.border2 {
+  border: 5px solid green;
+}
+
+.border3 {
+  border: 5px solid blue;
+}
+
+.main-container {
+  border: 5px solid purple;
+  height: 100vh;
+  /* display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+nav,main,footer {
+
+ flex: 1;
+}
+
+main {
+  flex: 3;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* nav {
+  height: 80px;
+}
+
+main {
+  height: calc(100% - 160px);
+}
+
+footer {
+  height: 80px;
+} */
+
+
+
+
+
