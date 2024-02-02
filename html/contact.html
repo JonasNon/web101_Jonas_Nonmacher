@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/contact-styles.css">
+  <script src="../javascript/contact-scripts.js"></script>
+</head>
+<body>
+  <div id="main-container">
+    <div id="page-header">
+      <h1 id="massive-text">Contact Me!</h1>
+    </div>
+    <form action="./results.html" method="get" id="lower-input">
+      <div id="left-form">
+        <div class="text-entry">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" >
+        </div>
+        <div class="text-entry">
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" minlength="20" maxlength="500"></textarea>
+        </div>
+        <h1>Optionally enter birthday for annual emails!</h1>
+        <div>
+          <label for="date">Birthdate</label>
+          <input type="date" name="date" id="date" min="2019-06-10">
+        </div>
+      </div>
+      <div id="right-form">
+        <h1>How did you hear about me?</h1>
+        <div class="checkboxes">
+          <div class="checkbox">
+            <input type="checkbox" name="classmate" id="classmate">
+            <label for="classmate">Classmate</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="resume" id="resume">
+            <label for="resume">Resume Submission</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="linkedIn" id="linkedIn">
+            <label for="linkedIn">LinkedIn</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="c-a-r" id="c-a-r">
+            <label for="c-a-r">Coding Academy Rec</label>
+          </div>
+          <p>Would you like to be contacted??????</p>
+         <div>
+          <label for="yes">Yes.</label>
+          <input type="radio" name="yes-no" id="yes" value="yes">
+          <label for="no">No.</label>
+          <input type="radio" name="yes-no" id="no" value="no">
+        </div>
+        <input type="submit">
+      </div>
+    </form>
+  </div>
+  
+  
+</body>
+</html>
