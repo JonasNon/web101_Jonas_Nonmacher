@@ -69,3 +69,7 @@ label {
   flex-direction: row;
   align-items: flex-start;
 }
+
+#submit {
+  color: black;
+}
